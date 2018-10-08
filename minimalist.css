@@ -1,0 +1,14 @@
+body {
+    background-color: #fefefe;
+    max-width: 800px;
+    margin-left: 20px;
+}
+
+.versions {
+    display: none;
+}
+
+body, p, font {
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
