@@ -5,6 +5,7 @@
 // @description  Redirect *.derstandard to text.derstandard
 // @include      *://*derstandard.at/*
 // @grant        none
+// @run-at        document-start
 // ==/UserScript==
 
 (function() {
