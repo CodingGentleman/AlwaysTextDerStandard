@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Always text.derstandard.at
 // @namespace    https://www.codinggentleman.com
-// @version      0.2
+// @version      0.3
 // @description  Redirect *.derstandard to text.derstandard
 // @include      http*://*derstandard.at/*
 // @grant        none
 // @run-at       document-start
+// @downloadURL  https://raw.githubusercontent.com/CodingGentleman/AlwaysTextDerStandard/master/alwaystextderstandard.js
 // ==/UserScript==
 
 (function() {
