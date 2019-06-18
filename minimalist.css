@@ -1,14 +1,33 @@
 body {
     background-color: #fefefe;
-    max-width: 800px;
-    margin-left: 20px;
-}
-
-.versions {
-    display: none;
 }
 
 body, p, font {
     font-family: sans-serif;
-    font-size: 0.9em;
 }
+
+.grid section[class^='theme'], .grid section[data-type='nodes'] {
+    background-color: transparent;
+}
+
+.layout .story-community #forum-tb {
+    margin: 0;
+    background-color: transparent;
+}
+
+.layout .story-community .upost .upost-body, .layout .story-community .upost .upost-tools {
+    background-color: transparent;
+}
+
+.layout .story-community .upost .upost-head {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.layout .story-community .upost .upost-content::before {
+    border-color: transparent rgba(0, 0, 0, 0.03) transparent transparent;
+}
+
+.layout .story-community .upost-is-reply .upost-content {
+    border-color: rgba(0, 0, 0, 0.03);
+}
+
