@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Always text.derstandard.at
+// @name         Always next.derstandard.at
 // @namespace    https://www.codinggentleman.com
-// @version      0.3
-// @description  Redirect *.derstandard to text.derstandard
+// @version      0.4
+// @description  Redirect *.derstandard to next.derstandard
 // @include      http*://*derstandard.at/*
 // @grant        none
 // @run-at       document-start
@@ -11,8 +11,8 @@
 
 (function() {
     'use strict';
-    if(location.href.indexOf("text.derstandard.at") === -1) {
+    if(location.href.indexOf("next.derstandard.at") === -1) {
         var index = location.href.indexOf("derstandard.at");
-        location.replace("https://text." + location.href.substring(index));
+        location.replace("https://next." + location.href.substring(index));
     }
 })();
