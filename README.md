@@ -1,4 +1,4 @@
-# AlwaysTextDerStandard
+# AlwaysTextDerStandard (now next!)
 
 This project contains two files:
 
