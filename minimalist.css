@@ -6,6 +6,10 @@ body, p, font {
     font-family: sans-serif;
 }
 
+.site-header-fixed {
+    background-color: #fefefe;
+}
+
 .grid section[class^='theme'], .grid section[data-type='nodes'] {
     background-color: transparent;
 }
